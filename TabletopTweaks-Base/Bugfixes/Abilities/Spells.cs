@@ -14,6 +14,7 @@ using Kingmaker.Enums;
 using Kingmaker.Enums.Damage;
 using Kingmaker.ResourceLinks;
 using Kingmaker.RuleSystem;
+using Kingmaker.RuleSystem.Rules;
 using Kingmaker.RuleSystem.Rules.Damage;
 using Kingmaker.UnitLogic;
 using Kingmaker.UnitLogic.Abilities;
@@ -1224,7 +1225,7 @@ namespace TabletopTweaks.Base.Bugfixes.Abilities {
                         c.Rule = RuleType.All;
                         c.RollsAmount = 1;
                         c.TakeBest = false;
-                        c.m_SavingThrowType = ModifyD20.InnerSavingThrowType.All;
+                        c.m_SavingThrowType = FlaggedSavingThrowType.All;
                         c.m_TandemTripFeature = new BlueprintFeatureReference();
                         c.RollResult = new ContextValue();
                         c.Bonus = new ContextValue();
@@ -2128,7 +2129,7 @@ namespace TabletopTweaks.Base.Bugfixes.Abilities {
                 var WinterGraspDifficultTerrainBuff = BlueprintTools.GetBlueprint<BlueprintBuff>("cb5715ae89974ff98870f13fde9cd27e");
 
                 WinterGrasp.TemporaryContext(bp => {
-                    bp.SetDescription(TTTContext, "ce encrusts the ground, radiating supernatural cold and making it hard for creatures " +
+                    bp.SetDescription(TTTContext, "Ice encrusts the ground, radiating supernatural cold and making it hard for creatures " +
                         "to maintain their balance. This icy ground is treated as difficult terrain and " +
                         "the DC of Mobility checks in the area is increased by 5. " +
                         "A creature that begins its turn in the affected area takes 1d6 points of cold damage and takes a " +
@@ -2164,6 +2165,21 @@ namespace TabletopTweaks.Base.Bugfixes.Abilities {
                                     Rate = DurationRate.Rounds,
                                     DiceCountValue = 0,
                                     BonusValue = 1
+                                }
+                            },
+                            new ContextActionDealDamage() {
+                                DamageType = new DamageTypeDescription() {
+                                    Type = DamageType.Energy,
+                                    Energy = DamageEnergyType.Cold
+                                },
+                                Duration = new ContextDurationValue() {
+                                    DiceCountValue = new ContextValue(),
+                                    BonusValue = new ContextValue()
+                                },
+                                Value = new ContextDiceValue() {
+                                    DiceType = DiceType.D6,
+                                    DiceCountValue = 1,
+                                    BonusValue = 0
                                 }
                             }
                         );

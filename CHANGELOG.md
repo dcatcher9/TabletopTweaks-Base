@@ -1,3 +1,56 @@
+# Version 2.6.3
+* Fixes
+    * Weapon Training features should work correctly again.
+    * Hag of Gyronna now qualifies for second patron.
+
+# Version 2.6.2
+* Fixes
+    * Mythic Armor Focus (Heavy Armor) — Endurance
+        * DR now correctly stacks with everything 
+
+## Version 2.6.1
+* Basic Updates for DLC 5
+* Integration for new shifter archetype
+* Fixes
+    * Mythic Abilities
+        * Best Jokes no longer breaks for Tiefling racial Hideous Laughter.
+
+## Version 2.5.20
+* Fixes
+    * Winter Witch
+        * Now counts as witch levels for feat prerequisites.
+
+## Version 2.5.19
+* Fixes
+    * Fixed issue where Fireball - Cluster Bombs did not scale correctly with spell specilization.
+
+## Version 2.5.18
+* Added Content
+    * Mythic Abilities
+        * Arcane Metamastery
+            * You can pick any one metamagic feat you know that increases the slot level of the spell by up to 2 levels. For the next 10 rounds, you can apply this metamagic feat to any arcane spell you cast without increasing the spell slot used or casting time.
+
+## Version 2.5.17
+* Fixes
+    * Fixed issue where Old Master did not work with Quarterstaff Master.
+
+## Version 2.5.16
+* Added Content
+    * Feats
+        * Magic Trick Fireball
+            * Cluster Bomb: You are able to throw multiple small explosions with a single spell instead of the normal effect. For every 2 caster levels, you toss a miniature fireball with a 10-foot radius that deals 2d6 points of fire damage. A creature attempts a single Reflex save against the combined damage.
+    * Mythic Abilities
+        * Adamantine Mind
+            * You gain a bonus equal to your tier on saving throws against mind-affecting effects. Whenever you succeed at a save against a mind-affecting effect, the creature attacking you with that effect must succeed at a Will save (at the same DC) or be stunned for 1 round.
+        * Eldritch Breach
+            * When attempting a caster level check to dispel an effect or overcome spell resistance roll twice and take the higher result.
+        * Elemental Bond
+            * Whenever you cast a spell with a descriptor matching that plane, add your mythic rank to your caster level for that spell.
+        * Energy Conversion
+            * Whenever you cast a spell with the acid, cold, electricity, or fire descriptor you can switch the energy type to a different one of those energy types.
+        * Mythic Bond
+            * If your ranger’s bond is with your companions, you can activate the bond as a swift action, granting your allies your full favored enemy bonus instead of just half.
+
 ## Version 2.5.15
 * Cleaving finish will no longer trigger more than once without Improved Cleaving Finish.
 

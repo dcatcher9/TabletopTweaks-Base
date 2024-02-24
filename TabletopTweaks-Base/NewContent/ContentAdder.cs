@@ -181,6 +181,12 @@ namespace TabletopTweaks.Base.NewContent {
                 MythicAbilities.SecondOrder.AddSecondOrder();
                 MythicAbilities.MythicBanner.AddMythicBanner();
                 MythicAbilities.MaximizedCritical.AddMaximizedCritical();
+                MythicAbilities.MythicBond.AddMythicBond();
+                MythicAbilities.EldritchBreach.AddEldritchBreach();
+                MythicAbilities.ElementalBond.AddElementalBond();
+                MythicAbilities.EnergyConversion.AddEnergyConversion();
+                MythicAbilities.AdamantineMind.AddAdamantineMind();
+                MythicAbilities.ArcaneMetamastery.AddArcaneMetamastery();
 
                 MythicAbilities.FavoriteMetamagicPersistent.AddFavoriteMetamagicPersistent();
                 MythicAbilities.FavoriteMetamagicSelective.AddFavoriteMetamagicSelective();
@@ -221,6 +227,7 @@ namespace TabletopTweaks.Base.NewContent {
                 Feats.SplitHex.AddSplitHex();
                 Feats.ImprovedNaturalArmor.AddImprovedNaturalArmor();
                 Feats.ImprovedNaturalAttack.AddImprovedNaturalAttack();
+                Feats.MagicTrick.AddMagicTrick();
 
                 Feats.ExtraReservoir.AddExtraReservoir();
                 Feats.ExtraHex.AddExtraHex();

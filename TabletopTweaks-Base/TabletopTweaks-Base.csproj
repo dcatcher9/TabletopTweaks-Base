@@ -326,6 +326,7 @@
     <Compile Include="NewContent\Feats\ExpandedSpellKenning.cs" />
     <Compile Include="NewContent\Feats\ImprovedNaturalArmor.cs" />
     <Compile Include="NewContent\Feats\ImprovedNaturalAttack.cs" />
+    <Compile Include="NewContent\Feats\MagicTrick.cs" />
     <Compile Include="NewContent\Feats\MantisStyle.cs" />
     <Compile Include="NewContent\Feats\MetamagicFeats\BurningSpell.cs" />
     <Compile Include="NewContent\Feats\CelestialServant.cs" />
@@ -412,8 +413,13 @@
     <Compile Include="NewContent\MythicAbilities\AbundantIncense.cs" />
     <Compile Include="NewContent\MythicAbilities\AbundantLayOnHands.cs" />
     <Compile Include="NewContent\MythicAbilities\AbundantSpellKenning.cs" />
+    <Compile Include="NewContent\MythicAbilities\AdamantineMind.cs" />
+    <Compile Include="NewContent\MythicAbilities\ArcaneMetamastery.cs" />
     <Compile Include="NewContent\MythicAbilities\ArmoredMight .cs" />
     <Compile Include="NewContent\MythicAbilities\ArmorMaster.cs" />
+    <Compile Include="NewContent\MythicAbilities\EldritchBreach.cs" />
+    <Compile Include="NewContent\MythicAbilities\ElementalBond.cs" />
+    <Compile Include="NewContent\MythicAbilities\EnergyConversion.cs" />
     <Compile Include="NewContent\MythicAbilities\EnhancedBlessings.cs" />
     <Compile Include="NewContent\MythicAbilities\ExtraMythicFeat.cs" />
     <Compile Include="NewContent\MythicAbilities\FavoriteMetamagicPersistent.cs" />
@@ -424,6 +430,7 @@
     <Compile Include="NewContent\MythicAbilities\MaximizedCritical.cs" />
     <Compile Include="NewContent\MythicAbilities\MountedManiac.cs" />
     <Compile Include="NewContent\MythicAbilities\MythicBanner.cs" />
+    <Compile Include="NewContent\MythicAbilities\MythicBond.cs" />
     <Compile Include="NewContent\MythicAbilities\MythicSpellCombat.cs" />
     <Compile Include="NewContent\MythicAbilities\PrecisionCritical.cs" />
     <Compile Include="NewContent\MythicAbilities\SecondOrder.cs" />
@@ -497,7 +504,28 @@
     <Content Include="Assets\Abilities\Icon_DireProphecy.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Abilities\Icon_EnergyConversion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Abilities\Icon_EnergyConversionAcid.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Abilities\Icon_EnergyConversionCold.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Abilities\Icon_EnergyConversionElectricity.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Abilities\Icon_EnergyConversionFire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Abilities\Icon_FireballClusterBomb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Abilities\Icon_Spellcurse.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Abilities\Icon_ArcaneMetamastery.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Equipment\Icon_ScrollOfSpellcurse.png">
@@ -782,6 +810,9 @@
     <Content Include="Assets\Equipment\Icon_ScrollOfWebBolt.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Feats\Icon_AdamantineMind.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Feats\Icon_ArmoredMight.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -792,6 +823,18 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Feats\Icon_DispelFocus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Feats\Icon_ElementalBondAir.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Feats\Icon_ElementalBondEarth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Feats\Icon_ElementalBondFire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Feats\Icon_ElementalBondWater.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Feats\Icon_ElementalSpellFeat.png">

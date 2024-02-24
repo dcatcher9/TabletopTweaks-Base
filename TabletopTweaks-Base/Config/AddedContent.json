@@ -232,6 +232,11 @@
         "Homebrew": false,
         "Description": "You get a +2 bonus on Knowledge (Arcana) and Use Magic Device skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
       },
+      "MagicTrickFireball": {
+        "Enabled": true,
+        "Homebrew": false,
+        "Description": "Cluster Bomb: You are able to throw multiple small explosions with a single spell instead of the normal effect. For every 2 caster levels, you toss a miniature fireball with a 10-foot radius that deals 2d6 points of fire damage. A creature attempts a single Reflex save against the combined damage."
+      },
       "MantisStyle": {
         "Enabled": true,
         "Homebrew": false,
@@ -755,6 +760,16 @@
         "Homebrew": true,
         "Description": "You can use Spell Kenning a number of additional times per day equal to one third your mythic rank."
       },
+      "AdamantineMind": {
+        "Enabled": true,
+        "Homebrew": false,
+        "Description": "You gain a bonus equal to your tier on saving throws against mind-affecting effects. Whenever you succeed at a save against a mind-affecting effect, the creature attacking you with that effect must succeed at a Will save (at the same DC) or be stunned for 1 round."
+      },
+      "ArcaneMetamastery": {
+        "Enabled": true,
+        "Homebrew": false,
+        "Description": "You can pick any one metamagic feat you know that increases the slot level of the spell by up to 2 levels. For the next 10 rounds, you can apply this metamagic feat to any arcane spell you cast without increasing the spell slot used or casting time."
+      },
       "ArmoredMight": {
         "Enabled": true,
         "Homebrew": false,
@@ -770,6 +785,21 @@
         "Homebrew": true,
         "Description": "Alternate version of Armor Master. While wearing armor, you reduce the armor check penalty by 1 per mythic rank and increase the maximum Dexterity bonus allowed by by 1 per mythic rank. Additionally you reduce your arcane spell failure chance from armor and shields by 5% per mythic rank."
       },
+      "EldritchBreach": {
+        "Enabled": true,
+        "Homebrew": false,
+        "Description": "When attempting a caster level check to dispel an effect or overcome spell resistance roll twice and take the higher result."
+      },
+      "ElementalBond": {
+        "Enabled": true,
+        "Homebrew": false,
+        "Description": "Whenever you cast a spell with a descriptor matching that plane, add your mythic rank to your caster level for that spell."
+      },
+      "EnergyConversion": {
+        "Enabled": true,
+        "Homebrew": true,
+        "Description": "Whenever you cast a spell with the acid, cold, electricity, or fire descriptor you can switch the energy type to a different one of those energy types."
+      },
       "EnhancedBlessings": {
         "Enabled": true,
         "Homebrew": true,
@@ -784,11 +814,6 @@
         "Enabled": true,
         "Homebrew": false,
         "Description": "Reduce the cost of Selective Persistent by 1."
-      },
-      "HarmoniousMage": {
-        "Enabled": true,
-        "Homebrew": false,
-        "Description": "Your wizardly studies have moved beyond the concept of opposition schools. Preparing spells from one of your opposition schools now only requires one spell slot of the appropriate level instead of two."
       },
       "ImpossibleBlessing": {
         "Enabled": true,
@@ -814,6 +839,11 @@
         "Enabled": true,
         "Homebrew": true,
         "Description": "All allies within 60 feet gain a +2 morale bonus to AC. They gain an additional bonus to AC against attack rolls made to confirm a critical hit equal to half your mythic rank."
+      },
+      "MythicBond": {
+        "Enabled": true,
+        "Homebrew": false,
+        "Description": "If your ranger’s bond is with your companions, you can activate the bond as a swift action, granting your allies your full favored enemy bonus instead of just half."
       },
       "MythicSpellCombat": {
         "Enabled": true,
